@@ -1,0 +1,18 @@
+name: CapsFake
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - numpy=1.26.4
+  - pillow=10.3.0
+  - scikit-learn=1.4.2
+  - tensorboard=2.18.0
+  - tqdm=4.66.5
+  - pip
+  - pip:
+    - torch-dct==0.1.6
+    - open-clip-torch==2.26.1
